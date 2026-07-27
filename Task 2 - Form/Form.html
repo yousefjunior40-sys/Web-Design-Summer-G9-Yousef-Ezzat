@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form autocomplete="off">
+      <fieldset>
+        <legend>search</legend>
+        <div>
+          <label>First Name:</label>
+          <input name="fname" pattern="[A-Za-z\u0600-\u06FF]+" required />
+        </div>
+        <div>
+          <label>Last Name:</label>
+          <input name="lname" minlength="5" />
+        </div>
+        <div>
+          <label>Mobile:</label>
+          <input name="mobile" pattern="01[0125]\d{8}" />
+        </div>
+        <div>
+          <label>Course:</label>
+          <input type="text" name="course" list="courses" />
+          <datalist id="courses">
+            <option value="Course 1"></option>
+            <option value="Course 2"></option>
+          </datalist>
+        </div>
+        <div>
+          <input type="file" name="img" accept=".png" />
+        </div>
+        <div>
+          <label>Comment:</label>
+          <br />
+          <textarea name="comment" required></textarea>
+        </div>
+        <div>
+          <label>Date of Birth:</label>
+          <input type="date" name="d" required />
+        </div>
+        <div>
+          <label>Gender:</label>
+          <label
+            ><input type="radio" name="gender" value="m" required /> Male</label
+          >
+          <label><input type="radio" name="gender" value="f" /> Female</label>
+        </div>
+        <div>
+          <label>Tracks:</label>
+          <label
+            ><input type="checkbox" name="track" value="1" checked /> Track
+            1</label
+          >
+          <label
+            ><input type="checkbox" name="track" value="2" /> Track 2</label
+          >
+        </div>
+        <div>
+          <label>Range:</label>
+          <input type="range" name="r" min="10" max="100" />
+        </div>
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
