@@ -29,7 +29,6 @@ img {
   padding: 0 20px;
 }
 
-/* Button Variants */
 button {
   border: none;
   cursor: pointer;
@@ -55,7 +54,6 @@ button {
   padding: 15px 24px;
 }
 
-/* Navigation Bar */
 .navigation-bar {
   display: flex;
   justify-content: space-between;
@@ -79,7 +77,6 @@ button {
   gap: 24px;
 }
 
-/* Hero Section */
 .hero-section {
   display: flex;
   align-items: center;
@@ -144,7 +141,6 @@ button {
   font-weight: bold;
 }
 
-/* Statistics */
 .stats-section {
   display: flex;
   justify-content: space-between;
@@ -179,7 +175,6 @@ button {
   font-weight: bold;
 }
 
-/* Apartments */
 .apartments-section {
   background: #f3f3f3;
   padding: 60px 20px;
@@ -231,7 +226,6 @@ button {
   margin-top: 30px;
 }
 
-/* Advertisements */
 .advert-section {
   display: flex;
   align-items: center;
@@ -264,7 +258,6 @@ button {
   font-weight: bold;
 }
 
-/* Footer */
 footer {
   background: #16222e;
   color: #fff;
