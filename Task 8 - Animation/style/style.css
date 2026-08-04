@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  overflow: hidden;
+}
+
+.car {
+  width: 150px;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  animation: moveCar 3s linear infinite;
+}
+
+@keyframes moveCar {
+  0% {
+    transform: translateX(-150px);
+  }
+  100% {
+    transform: translateX(1600px);
+  }
+}
