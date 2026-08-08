@@ -1,0 +1,19 @@
+#cardsRow {
+  display: flex;
+}
+
+#cardsCol {
+  display: none;
+}
+
+#cardsCol:target {
+  display: flex;
+}
+
+#cardsCol:target ~ #cardsRow {
+  display: none;
+}
+
+#cardsRow:target {
+  display: flex;
+}
