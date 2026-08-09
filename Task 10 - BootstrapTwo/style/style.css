@@ -4,6 +4,8 @@
 
 #cardsCol {
   display: none;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 #cardsCol:target {
@@ -14,6 +16,3 @@
   display: none;
 }
 
-#cardsRow:target {
-  display: flex;
-}
