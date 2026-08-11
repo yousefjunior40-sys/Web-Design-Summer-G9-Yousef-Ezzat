@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <title>Document</title>
+
+        <style>
+          #result {
+            background-color: lightgray;
+            padding: 15px;
+            margin-top: 20px;
+          }
+        </style>
+      </head>
+
+      <body>
+        <form>
+          <input type="text" id="name" placeholder="Enter your name" />
+          <input type="email" id="email" placeholder="Enter your email" />
+          <button type="button" onclick="addData()">Add</button>
+        </form>
+
+        <div id="result"></div>
+
+        <script>
+          function addData() {
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+
+            document.getElementById("result").innerHTML =
+              "Name: " + name + "<br>" + "Email: " + email;
+          }
+        </script>
+      </body>
+    </html>
+  </body>
+</html>
